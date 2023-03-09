@@ -1,4 +1,4 @@
-import ./digito_verificador
+import digito_verificador
 
 
 def test_calcular_modulo11():
