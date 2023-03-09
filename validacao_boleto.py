@@ -4,7 +4,7 @@ from abc import ABC
 import re
 from functools import cache
 
-from digito_verficador import calcular_modulo10, calcular_modulo11
+from digito_verificador import calcular_modulo10, calcular_modulo11
 
 
 class ValidaBoletoFactory:
@@ -217,10 +217,7 @@ class ValidaBoletoConvenio(ValidaBoleto):
         return linha
 
 
-def test07():
-    numero = "9434517811"
 
-    print(calcular_modulo10(numero) == '8')
 
 
 def test06():
